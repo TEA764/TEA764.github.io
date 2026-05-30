@@ -6,13 +6,17 @@
 
 <body style="
 background:
-linear-gradient(
-to bottom,
-#5c94fc 0%,
-#5c94fc 70%,
-#2ecc40 70%,
-#2ecc40 100%
-);
+  /* 天空 */
+  linear-gradient(to bottom, #5c94fc 0%, #5c94fc 70%, #87ceeb 100%),
+  /* 地面砖块 */
+  repeating-linear-gradient(
+    0deg,
+    #2ecc40,
+    #2ecc40 32px,
+    #27ae36 32px,
+    #27ae36 64px
+  );
+background-size: 100% 100%, 64px 32px;
 ">
 color:white;
 text-align:center;
